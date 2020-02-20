@@ -1,0 +1,19 @@
+#circleBarWebText {
+  font-family: 'FranklinGothic-Book' "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+  font-size: 16px;
+  fill: #fff;
+}
+#circleBarWebLabels tspan {
+  font-family: 'FranklinGothic-Book' "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+  font-size: 10px;
+  fill: #6D6E71;
+}
+#circleBarWebValues tspan {
+  font-family: 'FranklinGothic-Book' "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+  font-size: 9px;
+  font-weight: bold;
+  fill: #000;
+}
+#circleBarWebValues tspan {
+  fill: #7D3A4D;
+}

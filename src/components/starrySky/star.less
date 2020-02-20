@@ -1,0 +1,182 @@
+@keyframes txtEaseIn {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@font-face {
+    font-family: 'Granjon';
+    src: url('../../assets/font/Granjon.eot') format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Granjon';
+    src: url('../../assets/font/Granjon.otf') format("opentype"),url('../../assets/font/Granjon.woff') format("woff"),url('../../assets/font/Granjon.ttf') format("truetype"),url('../../assets/font/Granjon.svg') format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+#star{
+    cursor: default !important;
+}
+
+.skip{
+    width: 80px;
+    height: 60px;
+    z-index: 1;
+    position: absolute;
+    left: calc(~"50% - 40px");
+    -moz-left: calc(~"50% - 40px");
+    -webkit-left: calc(~"50% - 40px");
+    top:80%;
+    color: #fff;
+    text-shadow: 2px 2px 5px #2a63bc;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 60px;
+    font-family: Granjon;
+    cursor: pointer !important;
+    animation: txtEaseIn 3s ease-in-out infinite;
+}
+.skip span{
+    margin-left: 5px;
+    height: 100%;
+    width: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+.skip span::before{
+    line-height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.skip:hover{
+    animation: none;
+    opacity: 1 !important;
+}
+
+.skip:hover span{
+    transform: translateX(8px);
+    transition: transform 1.5s;
+}
+
+
+
+.canvas{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100vw;
+    height: 100vh;
+    //z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    z-index: -9999;
+    /*去除横向滚动条*/
+    /*overflow: -Scroll;*/
+    /*overflow-x: hidden;*/
+    //overflow: hidden;
+}
+
+p.starTxt{
+    z-index: 1;
+    width: 100%;
+    font-size: 0;
+}
+
+span.line{
+    display: inline-block !important;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    font-size: 26px;
+    line-height: 1.5;
+    color: #fff;
+    font-family:'BigYoung12f5eb57431d5f3';
+    letter-spacing: 0.04em;
+    //left: -50%;
+    top: 50%;
+    width: 100%;
+}
+span.easeIn{
+    //display: none;
+    opacity: 0;
+    animation: txtEaseIn 4.5s ease-in-out ;
+    -moz-animation: txtEaseIn 4.5s ease-in-out ;
+    -webkit-animation: txtEaseIn 4.5s ease-in-out ;
+    -webkit-animation-fill-mode: forwards;
+}
+
+span.t2{
+
+    animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -wibkit-animation-delay: 1s;
+}
+span.t4{
+    animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    -wibkit-animation-delay: 5;
+}
+span.t6{
+    animation-delay: 9s;
+    -moz-animation-delay: 9s;
+    -wibkit-animation-delay: 9s;
+}
+span.t8{
+    animation-delay: 13s;
+    -moz-animation-delay: 13s;
+    -wibkit-animation-delay: 13s;
+}
+span.t10{
+    animation-delay: 17s;
+    -moz-animation-delay: 17s;
+    -wibkit-animation-delay: 17s;
+}
+span.t12{
+    animation-delay: 21s;
+    -moz-animation-delay: 21s;
+    -wibkit-animation-delay: 21s;
+}
+span.t14{
+    animation-delay: 25s;
+    -moz-animation-delay: 25s;
+    -wibkit-animation-delay: 25s;
+}
+span.t16{
+     animation-delay: 29s;
+     -moz-animation-delay: 29s;
+     -wibkit-animation-delay: 29s;
+ }
+span.t18{
+      animation-delay: 33s;
+      -moz-animation-delay: 33s;
+      -wibkit-animation-delay: 33s;
+  }
+span.t20{
+    animation-delay: 37s;
+    -moz-animation-delay: 37s;
+    -wibkit-animation-delay: 37s;
+}
+span.t22{
+    animation-delay: 41s;
+    -moz-animation-delay: 41s;
+    -wibkit-animation-delay: 41s;
+}
+
+
